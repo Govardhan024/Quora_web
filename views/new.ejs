@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body style="margin-left: 20px; background-color: bisque;">
+    <form action="/posts" method="post">
+    <!-- <input input="text" placeholder="enter username" name="username"><br><br>
+        <textarea name="content" id="" cols="30" rows="10" placeholder="write your content"></textarea>
+        <br><br> -->
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" >username</label>
+            <input name="username" inputmode="text" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="mb-3">
+            
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" cols="30" name="content"></textarea>
+          </div>   
+        <button>submit</button>
+        <!-- <button  class="btn btn-outline-success">Submit</button> -->
+        
+    </form>
+    
+</body>
+</html>

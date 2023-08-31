@@ -1,0 +1,1 @@
+This repository contains a web application built using Express.js, Node.js, and EJS. The application provides a set of APIs that support various HTTP methods like GET, PUT, PATCH, and DELETE. This README file serves as a guide to understanding the structure of the application and how to use its APIs.

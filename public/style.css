@@ -1,0 +1,50 @@
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h1{
+    color: maroon;
+}
+
+.post{
+    /* height: 200px; */
+    width: 500px;
+    max-height: 300px; /* Adjust the height as needed */
+    overflow: hidden;
+    padding-left: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px black;
+    transition: box-shadow 0.5s 0.5s;
+    background-color: blanchedalmond;
+    
+}
+
+
+
+.post:hover{
+    box-shadow:0px 8px 16px black ;
+    
+}
+.an{
+    color: crimson;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+}
+.an:hover{
+    color: green;
+    
+}
+
+.btn{
+    
+    margin-top: 20px;
+}
+
+.user{
+    font-style: italic;
+}
